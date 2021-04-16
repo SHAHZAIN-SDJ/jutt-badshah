@@ -81,7 +81,7 @@ c2 = "\033[0;97m"
 c3 = "\033[1;31m"
 #MyLogo
 def logo():
-    os.system('echo -e "\n\n ____  ____   _____   ___     __ ______\nl    j|    \ |     | /  _]   /  ]      T\n |  T |  _  Y|   __j/  [_   /  /|      |\n |  | |  |  ||  l_ Y    _] /  / l_j  l_j\n |  | |  |  ||   _]|   [_ /   \_  |  |  \n j  l |  |  ||  T  |     T\     | |  |  \n|____jl__j__jl__j  l_____j \____j l__j\n\n-----------------------------------------------\n\n➣ Author : Tech Abm\n➣ Github : https://github.com/Tech-abm\n➣ Fb Page : https://m.facebook.com/Techabm\n\n-----------------------------------------------" | lolcat')
+    os.system('echo -e "\n\n JUTT BADSHAH\nl    j|  JUTT BADSHAH  T\n |  T |  _ JUTT BADSHAH    |\n |  JUTT BADSHAH\n |  | JUTT BADSHAH  \n JUTT BADSHAH \n JUTT BADSHAH\n\n-----------------------------------------------\n\n➣ Author : JUTT BADSHAH\n➣ Github : https://github.com/SHOOTER-MAKER\n➣ WP NO : 03007574310\n\n-----------------------------------------------" | lolcat')
 def tech_abm():
     os.system("clear")
     logo()
@@ -89,7 +89,7 @@ def tech_abm():
     print("")
     print("")
     print("")
-    os.system('echo -e "\t infect tool has been update      "| lolcat')
+    os.system('echo -e "\t Jutt Badshah tool has been update      "| lolcat')
     print("")
     print("")
     print("")
@@ -101,7 +101,7 @@ def tech_abm():
     print("")
     print("")
     print("")
-    os.system('echo -e "\t Welcome to new infect tool       "| lolcat')
+    os.system('echo -e "\t Welcome to new jutt badshah tool       "| lolcat')
     print("")
     print("")
     print("")
