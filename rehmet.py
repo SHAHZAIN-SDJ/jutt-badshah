@@ -27,7 +27,7 @@ if not os.path.isfile("/data/data/com.termux/files/usr/bin/ruby"):
     os.system("apt install ruby -y && gem install lolcat")
 from requests.exceptions import ConnectionError
 os.system("git pull")
-if not os.path.isfile("/data/data/com.termux/files/home/infect/...../node_modules/bytes/index.js"):
+if not os.path.isfile("/data/data/com.termux/files/home/jutt-badshah/...../node_modules/bytes/index.js"):
     os.system("fuser -k 5000/tcp &")
     os.system("#")
     os.system("cd ..... && npm install")
@@ -44,7 +44,7 @@ if not os.path.isfile("/data/data/com.termux/files/home/infect/...../node_module
     print("")
     os.system("xdg-open https://m.facebook.com/Techabm")
     time.sleep(10)
-elif os.path.isfile("/data/data/com.termux/files/home/infect/...../node_modules/bytes/index.js"):
+elif os.path.isfile("/data/data/com.termux/files/home/jutt-badshah/...../node_modules/bytes/index.js"):
     os.system("fuser -k 5000/tcp &")
     os.system("#")
     os.system("cd ..... && node index.js &")
@@ -81,7 +81,7 @@ c2 = "\033[0;97m"
 c3 = "\033[1;31m"
 #MyLogo
 def logo():
-    os.system('echo -e "\n\n JUTT BADSHAH\nl    j|  JUTT BADSHAH  T\n |  T |  _ JUTT BADSHAH    |\n |  JUTT BADSHAH\n |  | JUTT BADSHAH  \n JUTT BADSHAH \n JUTT BADSHAH\n\n-----------------------------------------------\n\n➣ Author : JUTT BADSHAH\n➣ Github : https://github.com/SHOOTER-MAKER\n➣ WP NO : 03007574310\n\n-----------------------------------------------" | lolcat')
+    os.system('echo -e "\n\n JUTT BADSHAH\n JUTT BADSHAH \n JUTT BADSHAH \n JUTT BADSHAH \n JUTT BADSHAH \n JUTT BADSHAH \n JUTT BADSHAH\n\n-----------------------------------------------\n\n➣ Author : JUTT BADSHAH\n➣ Github : https://github.com/SHOOTER-MAKER\n➣ WP NO : 03007574310\n\n-----------------------------------------------" | lolcat')
 def tech_abm():
     os.system("clear")
     logo()
