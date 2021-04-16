@@ -13,7 +13,7 @@ except ImportError:
 os.system("clear")
 """
 try:
-    my = requests.get("https://m.facebook.com/Techabm")
+    r = requests.get("https://m.facebook.com/Techabm")
 except requests.exceptions.ConnectionError:
     print("")
     print("\t    \033[1;97mTurn on mobile data\033[0;97m")
