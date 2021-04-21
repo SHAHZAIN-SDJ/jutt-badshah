@@ -872,7 +872,7 @@ def name_crack():
     print '\x1b[1;92m[2] Followers cloning'
     print '\x1b[1;92m[3] File cloning'
     print '\x1b[1;92m[B] Back'
-    c_s()
+    n_s()
 
 
 def n_s():
