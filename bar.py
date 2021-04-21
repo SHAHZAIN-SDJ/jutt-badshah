@@ -985,7 +985,7 @@ def n_s():
         user = arg
         uid, name = user.split('|')
         try:
-        	pass1 = name.lower() + p1
+            pass1 = name.lower() + p1
             data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass1, headers=header).text
             q = json.loads(data)
             if 'loc' in q:
@@ -1017,7 +1017,7 @@ def n_s():
                     cp.close()
                     cps.append(uid + pass2)
                 else:
-                	pass3 = name.lower() +p3
+                    pass3 = name.lower() +p3
                     data = requests.get('http://localhost:5000/auth?id=' + uid + '&pass=' + pass3, headers=header).text
                     q = json.loads(data)
                     if 'loc' in q:
