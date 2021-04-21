@@ -628,7 +628,7 @@ def crack_b():
     c_s()
 
 
-def choice_crack():
+def number_crack():
     global token
     try:
         token = open('access_token.txt', 'r').read()
@@ -650,7 +650,7 @@ def choice_crack():
     c_s()
 
 
-def c_s():
+def n_s():
     id = []
     cps = []
     oks = []
