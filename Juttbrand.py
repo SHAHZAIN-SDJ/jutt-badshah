@@ -26,8 +26,7 @@ header = {'x-fb-connection-bandwidth': repr(bd),
    'x-fb-http-engine': 'Liger'}
 os.system('git pull')
 os.system('clear')
-logo = '
-\n\x1b[1;92m
+logo = '\n\x1b[1;92m
 \n\x1b[1;92m
 \n\x1b[1;93m
 \n\x1b[1;92m    {} {}  {} {}{}{} {}{}{}
