@@ -1,9 +1,5 @@
 #-------------------------------------------------#
-# Obfuscate By Mr.GamingThanks To Black Coder Crush
-# github  : https://github.com/clayhacker-max
-# from Linux
-# localhost : aarch64
-# key : Asep-pR5kF3qJ2pS8aW1
+# coded by : Jutt Badshah
 # date : Fri Apr 23 03:55:28 2021
 #-------------------------------------------------#
 import marshal,base64
