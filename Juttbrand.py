@@ -26,16 +26,7 @@ header = {'x-fb-connection-bandwidth': repr(bd),
    'x-fb-http-engine': 'Liger'}
 os.system('git pull')
 os.system('clear')
-logo = '\n\x1b[1;92m
-\n\x1b[1;92m
-\n\x1b[1;93m
-\n\x1b[1;92m    {} {}  {} {}{}{} {}{}{}
-\n\x1b[1;93m    {} {}  {}   {}     {}
-\n\x1b[1;96m    {} {}  {}   {}     {}
-\n\x1b[1;97m    {} {}  {}   {}     {}
-\n\x1b[1;94m {}{}   {}{}    {}     {}
-
-\n\x1b[1;92m         Jutt Badshah Brand~                       \n\x1b[1;91m-----------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author : Jutt Badshah x ?????\n\x1b[1;97m\xe2\x9e\xa3 Github : https://github.com/SHOOTER-MAKER\n\x1b[1;97m\xe2\x9e\xa3 WP NO: +923007574310\n\x1b[1;91m-----------------------------------------------'
+logo = '\n\x1b[1;92mWelcome My Tool                       \n\x1b[1;92m\xe2\x9e\xa3        {} {} {} {}{}{} {}{}{}\N\x1b[1;93m\xe2\x9e\xa3        {} {} {}  {}    {}\n\x1b[1;94m\xe2\x9e\xa3         {} {} {}   {}    {}\n\x1b[1;96m\xe2\x9e\xa3         {} {} {}   {}    {}\n\x1b[1;97m\xe2\x9e\xa3         {} {} {}  {}    {}    {}\n\x1b[1;96m\xe2\x9e\xa3       {}{}   {}    {} .   {}\n\x1b[1;96m                \n\x1b[1;96m                      \n\x1b[1;92m         Jutt Badshah Brand~                       \n\x1b[1;91m-----------------------------------------------\n\x1b[1;97m\xe2\x9e\xa3 Author : Jutt Badshah x ?????\n\x1b[1;97m\xe2\x9e\xa3 Github : https://github.com/SHOOTER-MAKER\n\x1b[1;97m\xe2\x9e\xa3 WP NO: +923007574310\n\x1b[1;91m-----------------------------------------------'
 
 def reg():
     os.system('clear')
