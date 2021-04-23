@@ -125,26 +125,6 @@ jalan("\033[1;91m WIFI USERZ USE ANY PROXY ")
 	
 jalan("\033[1;93m Welcome to Jutt Creations ")
 
-CorrectUsername = "jutt"
-CorrectPassword = "badshah"
-
-
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input("\033[1;96m[☆] \x1b[1;97mUSERNAME \x1b[1;96m>>>> ")
-    if (username == CorrectUsername):
-    	password = raw_input("\033[1;96m[☆] \x1b[1;97mPASWORD \x1b[1;96m>>>> ")
-        if (password == CorrectPassword):
-            print "Logged in successfully as " + username
-            loop = 'false'
-        else:
-            print "Wrong Password"
-            os.system('xdg-open https://www.Youtube.com/UCsdJQbRf0xpvwaDu1rqgJuA')
-    else:
-        print "Wrong Username"
-        os.system('clear')
-        reg_masuk()
-
 def reg_masuk():
     os.system('clear')
     print logo
