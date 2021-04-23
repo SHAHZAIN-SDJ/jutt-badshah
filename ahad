@@ -143,9 +143,9 @@ while (loop == 'true'):
     else:
         print "Wrong Username"
         os.system('clear')
-        reg()
+        reg_masuk()
 
-def reg():
+def reg_masuk():
     os.system('clear')
     print logo
     print ''
@@ -164,7 +164,7 @@ def reg():
         os.system('#')
         os.system('cd ..... && node index.js &')
         time.sleep(5)
-        b_menu()
+        masuk()
     else:
         os.system('clear')
         print logo
@@ -174,7 +174,7 @@ def reg():
         print ' \x1b[1;92mYour id: ' + to
         raw_input('\x1b[1;93m Press enter to send id')
         os.system('xdg-open https://wa.me/+923007574310')
-        reg()
+        reg_masuk()
 
 
 def reg2():
@@ -191,7 +191,7 @@ def reg2():
     sav.write(id)
     sav.close()
     raw_input('\x1b[1;92m Press enter to check Approval ')
-    reg()
+    reg_masuk()
 
 ######MASUK######
 def masuk():
