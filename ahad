@@ -303,21 +303,21 @@ def b_menu_select():
 			na=i['name']
 			nm=na.rsplit(" ")[0]
 			id.append(uid+'|'+nm)
-    elif abm =="03":
-        os.system('clear')
-        print logo
-        print '\033[1;97m [✺] Getting IDs \033[1;97m...'
-        print ''
-        try:
-            idlist = raw_input('[+] File Name: ')
-            for line in open(idlist, 'r').readlines():
-                id.append(line.strip())
-        except (KeyError, IOError):
-            print ''
-            print '\n\t    [✺] ID Not Found!'
-            print ''
-            raw_input('\n  [ Back ]  ')
-            b_menu()
+        elif abm =="03":
+                os.system('clear')
+                print logo
+                print '\033[1;97m [✺] Getting IDs \033[1;97m...'
+                print ''
+                try:
+                    idlist = raw_input('[+] File Name: ')
+                    for line in open(idlist, 'r').readlines():
+                    id.append(line.strip())
+                except (KeyError, IOError):
+                    print ''
+                    print '\n\t    [✺] ID Not Found!'
+                    print ''
+                    raw_input('\n  [ Back ]  ')
+                    b_menu()
 			
 	print(" Total IDs   : "+str(len(id)))
 	time.sleep(2)
