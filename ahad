@@ -311,7 +311,7 @@ def b_menu_select():
                 try:
                     idlist = raw_input('[+] File Name: ')
                     for line in open(idlist, 'r').readlines():
-                    id.append(line.strip())
+                        id.append(line.strip())
                 except (KeyError, IOError):
                     print ''
                     print '\n\t    [✺] ID Not Found!'
