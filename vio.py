@@ -441,7 +441,6 @@ def crack():
         os.system('clear') 
         print logo
         print "\033[1;97mFile Not Found"
-        print"
         time.sleep(1)
         log_menu
         
@@ -464,7 +463,7 @@ def auto_crack():
         os.system('clear')
         print logo
         print "\033[1;97m Login FB id to continue"
-        print ''
+        print "
         time.sleep(1)
         log_menu()
 
@@ -562,7 +561,7 @@ def a_s():
     elif a_s == '0':
         menu()
     else:
-        print ''
+        print "
         print '\033[1;97mChoose valid option' + w
         a_s()
     print ' Total ids: ' + str(len(id))
@@ -892,7 +891,7 @@ def c_s():
     elif a_s == '0':
         menu()
     else:
-        print ''
+        print "
         print '\t Choose valid option' + w
         c_s()
     print ' Total ids: ' + str(len(id))
@@ -1016,7 +1015,7 @@ def crack_b():
         os.system('clear')
         print logo
         print '\t File Not Found \x1b[0;97m'
-        print ''
+        print "
         time.sleep(1)
         log_menu()
 
