@@ -1005,7 +1005,7 @@ def crack_b():
         os.system('clear')
         print logo
         print '\t File Not Found \x1b[0;97m'
-        print "
+        print * '-'
         time.sleep(1)
         log_menu()
 
