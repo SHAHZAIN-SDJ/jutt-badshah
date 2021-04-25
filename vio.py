@@ -554,16 +554,14 @@ def a_s():
     elif a_s == '0':
         menu()
     else:
-        print "
         print '\033[1;97mChoose valid option' + w
         a_s()
     print ' Total ids: ' + str(len(id))
     time.sleep(0.5)
     print ' \033[1;97mCrack Running'
     time.sleep(0.5)
-    print "
     print '\033[1;96mJutt King Of Facebook'
-    print "
+    print 47 * '-'
 
     def main(arg):
         user = arg
