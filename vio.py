@@ -428,9 +428,8 @@ def menu_s():
 	elif ms =="4":
 	    os.system('python2 ok. py') 
 	else:
-	    printe"
 	    printe "\033[1;97mSelect Valid Option"
-	    printe"
+	    printe "
 	    menu_s()
 
 def crack():
