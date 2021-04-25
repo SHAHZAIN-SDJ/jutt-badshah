@@ -492,7 +492,7 @@ def a_s():
             os.system('clear')
             print logo
             print "\033[1;93m~~~~Auto pass public cracking~~~~"
-            print "\033[1;92mCloning from: ' + z
+            print '\033[1;92mCloning from: ' + z
         except (KeyError, IOError):
             print "\033[1;93mInvalid user"
             raw_input("\033[1;92mPress enter to try again ')
