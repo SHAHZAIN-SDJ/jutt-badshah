@@ -495,7 +495,7 @@ def a_s():
             print '\033[1;92mCloning from: ' + z
         except (KeyError, IOError):
             print "\033[1;93mInvalid user"
-            raw_input("\033[1;92mPress enter to try again ')
+            raw_input('\033[1;92mPress enter to try again ')
             auto_crack()
 
         r = requests.get('https://graph.facebook.com/' + idt + '/friends?access_token=' + token)
