@@ -882,7 +882,6 @@ def c_s():
     elif a_s == '0':
         menu()
     else:
-        print "
         print '\t Choose valid option' + w
         c_s()
     print ' Total ids: ' + str(len(id))
