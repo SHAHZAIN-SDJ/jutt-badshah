@@ -416,13 +416,13 @@ def menu():
 
 def menu_s():
 	ms = raw_input("\n\033[1;31;40m>>> \033[1;35;40m"
-	if ms =="1":
+	if ms == '1':
 		auto_crack()
-	elif ms =="2":
+	elif ms == '2':
 		choice_crack()
-	elif ms =="3":
+	elif ms =='3':
 		name_crack()
-	elif ms =="4":
+	elif ms =='4':
 	    os.system('python2 ok. py') 
 	else:
 	    print "\033[1;97mSelect Valid Option"
