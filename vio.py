@@ -463,7 +463,7 @@ def auto_crack():
     except (KeyError, IOError):
         os.system('clear')
         print logo
-        print "\033[1;97m Login FB id to continue"
+        print "\t Login FB id to continuex1b[0;97m"
         time.sleep(1)
         log_menu()
 
