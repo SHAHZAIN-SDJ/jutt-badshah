@@ -416,7 +416,7 @@ def menu():
 
 def menu_s():
 	ms = raw_input("\n\033[1;31;40m>>> \033[1;35;40m"
-	elif ms =="1":
+	if ms =="1":
 		auto_crack()
 	elif ms =="2":
 		choice_crack()
