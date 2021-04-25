@@ -617,4 +617,4 @@ def l_menu_select():
 
 
 if __name__ == '__main__':
-    masuk()
+    reg()
