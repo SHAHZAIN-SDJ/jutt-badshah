@@ -462,7 +462,6 @@ def auto_crack():
         os.system('clear')
         print logo
         print "\033[1;97m Login FB id to continue"
-        print "
         time.sleep(1)
         log_menu()
 
