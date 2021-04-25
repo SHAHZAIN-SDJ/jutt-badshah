@@ -444,7 +444,7 @@ def crack():
         time.sleep(1)
         log_menu
         
-    os.system('clear)
+    os.system('clear')
     print logo
     print "\033[1;97m~~~~ Auto pass cracking ~~~~"
     print "
