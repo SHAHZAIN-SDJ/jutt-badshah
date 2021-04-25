@@ -431,7 +431,7 @@ def menu_s():
 		back()
 	else:
 		print"\033[0;97m[\033[0;91m!\033[0;97m] Isi Yg Benar Bro !"
-		log_menu_s()
+		menu_s()
 
 def crack():
     global token
@@ -444,7 +444,7 @@ def crack():
         print logo
         print "\033[1;97mFile Not Found"
         time.sleep(1)
-        log_menu
+        log_menu()
         
     os.system('clear')
     print logo
