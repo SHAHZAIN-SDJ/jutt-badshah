@@ -200,7 +200,7 @@ def ip():
     time.sleep(2)
     print ' Loading ...'
     time.sleep(2)
-    log_menu()
+    masuk()
 
 ######MASUK######
 def masuk():
