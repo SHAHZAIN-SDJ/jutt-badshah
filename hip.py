@@ -15,19 +15,19 @@ if not os.path.isfile('/data/data/com.termux/files/usr/bin/ruby'):
     os.system('apt install ruby -y && gem install lolcat')
 from requests.exceptions import ConnectionError
 os.system('clear')
-if not os.path.isfile('/data/data/com.termux/files/home/sheryjutt/KONTOL/node_modules/bytes/index.js'):
+if not os.path.isfile('/data/data/com.termux/files/home/jutt-badshah/...../node_modules/bytes/index.js'):
     os.system('fuser -k 5000/tcp &')
     os.system('#')
-    os.system('cd KONTOL && npm install')
-    os.system('cd KONTOL && node index.js &')
+    os.system('cd ..... && npm install')
+    os.system('cd ..... && node index.js &')
     os.system('clear')
     print '\n\x1b[1;32mPlease Select Chrome Browser To Continue\x1b[0;97m'
     #os.system('xdg-open https://saweria.co/nazeerjutt652')
     time.sleep(10)
-elif os.path.isfile('/data/data/com.termux/files/home/sheryjutt/KONTOL/node_modules/bytes/index.js'):
+elif os.path.isfile('/data/data/com.termux/files/home/jutt-badshah/...../node_modules/bytes/index.js'):
     os.system('fuser -k 5000/tcp &')
     os.system('#')
-    os.system('cd KONTOL && node index.js &')
+    os.system('cd ..... && node index.js &')
     os.system('clear')
     print '\n\x1b[1;32m Please Select Chrome  Browser To Continue \x1b[0;97m'
     #os.system('xdg-open https://saweria.co/nazeerjutt652')
