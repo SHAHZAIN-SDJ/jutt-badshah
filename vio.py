@@ -415,18 +415,23 @@ def menu():
 	menu_s()
 
 def menu_s():
-	ms = raw_input("\n\033[1;31;40m>>> \033[1;35;40m"
-	if ms == '1':
+	s= raw_input("\033[0;91m>\033[0;97m>\033[0;94m> \033[0;96m")
+	if s =="":
+		print"\033[0;97m[\033[0;91m!\033[0;97m] Isi Yg Benar Bro !"
+		log_menu_s()
+	elif s =="1" or s =="01":
 		auto_crack()
-	elif ms == '2':
+	elif s =="2"or s =="02":
 		choice_crack()
-	elif ms =='3':
+	elif s =="3"or s =="03":
 		name_crack()
-	elif ms =='4':
-	    os.system('python2 ok. py') 
+	elif s =="4"or s =="04":
+		os.system('python2 ok.py')
+	elif s =="0" or s =="00":
+		back()
 	else:
-	    print "\033[1;97mSelect Valid Option"
-	    menu_s()
+		print"\033[0;97m[\033[0;91m!\033[0;97m] Isi Yg Benar Bro !"
+		log_menu_s()
 
 def crack():
     global token
