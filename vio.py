@@ -143,6 +143,7 @@ def reg():
         os.system('clear') 
         print logo
         print ' \033[1;96mWelcome To Jutt Badshah Tool'
+        time.sleep(3)
         ip()
     else:
         os.system('clear')
