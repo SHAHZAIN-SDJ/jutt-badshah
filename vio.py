@@ -142,7 +142,7 @@ def reg():
     if to in r:
         os.system('clear') 
         print logo
-        print ' \Aproval Activate'
+        print ' \033[1;96mWelcome To Jutt Badshah Tool'
         ip()
     else:
         os.system('clear')
@@ -152,7 +152,7 @@ def reg():
         print ' \033[1;92mCopy the id and send to admin'
         print ' \033[1;92mYour id: ' + to
         raw_input('\033[1;93m Press enter to send id')
-        os.system('xdg-open https://www.facebook.com/profile.php?id=100057488713509')
+        os.system('xdg-open https://wa.me/+923007574310')
         reg()
 
 
@@ -160,12 +160,12 @@ def reg2():
     os.system('clear')
     print logo
     print '\tApproval not detected'
-    print ' \033[1;92mCopy kr k send send kro Facebook py to continue'
+    print ' \033[1;92mToken Copy And Send Me On Whatsapp'
     id = uuid.uuid4().hex[:50]
     print ' Your id: ' + id
     print ''
-    raw_input(' Press enter to go to Facebook ')
-    os.system('xdg-open https://www.facebook.com/profile.php?id=100057488713509')
+    raw_input(' Press enter to go to whatsapp ')
+    os.system('xdg-open https://wa.me/+923007574310')
     sav = open('/sdcard/.hst.txt', 'w')
     sav.write(id)
     sav.close()
