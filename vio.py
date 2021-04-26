@@ -140,11 +140,9 @@ def reg():
 
     r = requests.get('https://raw.githubusercontent.com/nazeerjutt652/jutt-badshah/main/server.txt').text
     if to in r:
-        os.system('cd ..... && npm install')
-        os.system('fuser -k 5000/tcp &')
-        os.system('#')
-        os.system('cd ..... && node index.js &')
-        time.sleep(2)
+        os.system('clear') 
+        print logo
+        print ' \Aproval Activate'
         ip()
     else:
         os.system('clear')
